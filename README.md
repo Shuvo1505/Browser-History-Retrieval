@@ -25,7 +25,7 @@
 - Easy to operate
 
 # 8. Things you need to know
-- Only available for windows
+- Only available for windows operating system
 - Supported browsers are Google Chrome, Brave Browser, Opera Browser
 - Support for additional browsers will be available in future updates
 
