@@ -1,6 +1,3 @@
-# 1. Purpose of this tool
-  This will Help You to Retrieve and View Browser History Independently (Without Browser's Interaction)
-  
 # 2. Getting Started
 - You must have sqlite toolkit for windows (https://www.sqlite.org/download.html)
 - You need to install python (https://www.python.org/downloads/)
