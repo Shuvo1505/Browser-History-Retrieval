@@ -10,10 +10,10 @@
 # How to install
 - pip install -r requirements.txt
 
-# How to generate "<browser-name>_history.txt" file (For example: chrome_history.txt)
+# How to generate "history.txt" file (For example: chrome_history.txt)
 1. Run the "initiate-fetch-history.bat" file
 2. Choose your browser
-- Congratulations, You've successfully created your <browser-name>_history.txt file!
+- Congratulations, You've successfully created your history.txt file!
 
 # How to convert the raw text file into an excel file
 - python convert.py <input-file> <output-file>
