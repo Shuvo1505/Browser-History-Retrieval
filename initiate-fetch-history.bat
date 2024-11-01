@@ -22,7 +22,7 @@ rem Taking input from console
 set /p choice="[+] Enter your choice: "
 
 rem Declaring sqlite setup path
-set sqlitePath="YOUR_OWN_PATH"
+set sqlitePath="YOUR_OWN_PATH_FOR_SQLITE3"
 
 rem Implementing switch-case
 if "%choice%"=="1" (
