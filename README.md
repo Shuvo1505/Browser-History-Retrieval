@@ -5,7 +5,7 @@
 - You must have sqlite toolkit for windows (https://www.sqlite.org/download.html)
 - You need to install python (https://www.python.org/downloads/)
 - Browsers must be installed in the default installation directory
-- You need to change sqlite path first. Please check the source code of "initiate-fetch-history.bat"
+- You need to change sqlite path first. Please check the line number 25 of "initiate-fetch-history.bat"
 
 # 3. Required Python Libraries
 - pandas
