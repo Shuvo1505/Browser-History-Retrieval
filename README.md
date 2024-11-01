@@ -13,7 +13,7 @@
 
 # 4. How to generate "history.txt" file (For example: chrome_history.txt)
 1. Run the "initiate-fetch-history.bat" file
-2. Choose your browser
+2. Choose your browser (Select "Google Chrome" by pressing 1)
 - Congratulations, You've successfully created your history.txt file!
 
 # 5. How to convert the raw text file into an excel file
