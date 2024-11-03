@@ -4,11 +4,11 @@
 - Browsers must be installed in the default installation directory
 - You need to change sqlite path first. Please check line number 25 of "initiate-fetch-history.bat"
 
-# 2. Required Python Libraries
+# 2. Required python libraries
 - pandas
 - argparse
 
-# 3. How to install
+# 3. How to install required python libraries
 ```python
 pip install -r requirements.txt
 ```
