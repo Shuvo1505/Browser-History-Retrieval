@@ -9,15 +9,18 @@
 - argparse
 
 # 3. How to install
-- pip install -r requirements.txt
-
+```python
+pip install -r requirements.txt
+```
 # 4. How to generate "history.txt" file (For example: chrome_history.txt)
 1. Run the "initiate-fetch-history.bat" file
 2. Choose your browser (Select "Google Chrome" by pressing 1)
 - Congratulations, You've successfully created your history.txt file!
 
 # 5. How to convert the raw text file into an excel file
-- python convert.py <input-file> <output-file>
+```python
+python convert.py chrome_history.txt chrome_history.xlsx
+```
 - You can use "python convert.py -h" command to know more
 
 # 6. Features
