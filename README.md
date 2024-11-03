@@ -1,4 +1,4 @@
-# 1. Getting Started
+# 1. Getting started
 - You must have sqlite toolkit for windows (https://www.sqlite.org/download.html)
 - You need to install python (https://www.python.org/downloads/)
 - Browsers must be installed in the default installation directory
