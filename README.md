@@ -21,7 +21,7 @@ pip install -r requirements.txt
 # 5. Converting to Excel
 Convert the raw history text file into an Excel file by running:
 ```bash
-python convert.py chrome_history.txt chrome_history.xlsx
+python convert.py <input-file> <output-file>
 ```
 For additional options, use: `python convert.py -h`
 
