@@ -34,5 +34,5 @@ python convert.py chrome_history.txt chrome_history.xlsx
 - Supported browsers: Google Chrome, Brave, Opera.
 - Future updates will expand browser support.
 
-## 8. Screenshots
+# 8. Screenshots
 ![demo_show](https://github.com/user-attachments/assets/4cecb9df-b119-4bf3-97f0-adfa716802dd) ![demo_files](https://github.com/user-attachments/assets/0d3acc23-af19-493c-8494-49276e3a3b7d)
