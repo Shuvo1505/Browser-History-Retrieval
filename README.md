@@ -23,7 +23,7 @@ Convert the raw history text file into an Excel file by running:
 ```bash
 python convert.py chrome_history.txt chrome_history.xlsx
 ```
-- For additional options, use: `python convert.py -h`
+For additional options, use: `python convert.py -h`
 
 # 6. Key Features
 - Detailed browsing history view (URL, timestamp, etc.)
