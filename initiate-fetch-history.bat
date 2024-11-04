@@ -2,15 +2,10 @@
 
 rem ------------------------------------------------------
 rem Description: Browser History Retrieval Script
+rem Platform: Windows
 rem Developer: Purendu Guha
 rem ------------------------------------------------------
 
-echo.
-echo ------------------------------------------------------
-echo Description: Browser History Retrieval Script
-echo Platform: Windows
-echo Developer: Purendu Guha
-echo ------------------------------------------------------
 echo.
 echo Please select the browser to retrieve history:
 echo 1. Google Chrome
@@ -22,7 +17,7 @@ rem Taking input from console
 set /p choice="[+] Enter your choice: "
 
 rem Declaring sqlite setup path
-set sqlitePath="YOUR_OWN_PATH_FOR_SQLITE3"
+set sqlitePath="YOUR_OWN_PATH_FOR_SQLITE_SETUP"
 
 rem Implementing switch-case
 if "%choice%"=="1" (
