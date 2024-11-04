@@ -27,7 +27,7 @@ python convert.py chrome_history.txt chrome_history.xlsx
 
 # 6. Key Features
 - Detailed browsing history view (URL, timestamp, etc.)
-- User-friendly interface for ease of use.
+- Easy to operate.
 
 # 7. Important Notes
 - Available for Windows only.
