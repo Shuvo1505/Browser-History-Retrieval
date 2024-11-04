@@ -1,37 +1,38 @@
-# 1. Getting started
-- You must have sqlite toolkit for windows (https://www.sqlite.org/download.html)
-- You need to install python (https://www.python.org/downloads/)
-- Browsers must be installed in the default installation directory
-- You need to change sqlite path first. Please check line number 25 of "initiate-fetch-history.bat"
+# 1. Prerequisites
+- Ensure you have SQLite installed on Windows. [Download SQLite](https://www.sqlite.org/download.html)
+- Install Python. [Download Python](https://www.python.org/downloads/)
+- Make sure browsers are installed in the default directory.
+- Update the SQLite path in the script: check line 25 of `initiate-fetch-history.bat`.
 
-# 2. Required python libraries
-- pandas
-- argparse
+# 2. Required Python Libraries
+- `pandas`
+- `argparse`
 
-# 3. How to install required python libraries
-```python
+# 3. Installing Required Libraries
+Install all necessary libraries from the `requirements.txt` file:
+```bash
 pip install -r requirements.txt
 ```
-# 4. How to generate "history.txt" file (For example: chrome_history.txt)
-1. Run the "initiate-fetch-history.bat" file
-2. Choose your browser (Select "Google Chrome" by pressing 1)
-- Congratulations, You've successfully created your history.txt file!
+# 4. Generating the "history.txt" File (e.g., chrome_history.txt)
+- Run the initiate-fetch-history.bat file.
+- Select your browser (e.g., press "1" for Google Chrome).
+- Success: Your history.txt file is ready!
 
-# 5. How to convert the raw text file into an excel file
-```python
+# 5. Converting to Excel
+Convert the raw history text file into an Excel file by running:
+```bash
 python convert.py chrome_history.txt chrome_history.xlsx
 ```
-- You can use "python convert.py -h" command to know more
+- For additional options, use: `python convert.py -h`
 
-# 6. Features
-- Detail view of your history (including url, timestamp etc.)
-- Easy to operate
+# 6. Key Features
+- Detailed browsing history view (URL, timestamp, etc.)
+- User-friendly interface for ease of use.
 
-# 7. Things you need to know
-- Only available for windows operating system
-- Supported browsers are Google Chrome, Brave Browser, Opera Browser
-- Support for additional browsers will be available in future updates
+# 7. Important Notes
+- Available for Windows only.
+- Supported browsers: Google Chrome, Brave, Opera.
+- Future updates will expand browser support.
 
-# 8. Screenshots
-
+## 8. Screenshots
 ![demo_show](https://github.com/user-attachments/assets/4cecb9df-b119-4bf3-97f0-adfa716802dd) ![demo_files](https://github.com/user-attachments/assets/0d3acc23-af19-493c-8494-49276e3a3b7d)
