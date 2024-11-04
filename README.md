@@ -23,7 +23,7 @@ Convert the raw history text file into an Excel file by running:
 ```bash
 python convert.py <input-file> <output-file>
 ```
-For additional options, use: `python convert.py -h`
+For additional options, use: `python convert.py -h` or `python convert.py --help`
 
 # 6. Key Features
 - Detailed browsing history view (URL, timestamp, etc.)
